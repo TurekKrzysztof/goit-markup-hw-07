@@ -1,4 +1,4 @@
-/*CONTACT*/
+/*contact*/
 
 .contact {
     font-family: 'Roboto';
@@ -8,26 +8,35 @@
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #757575;
-}
+    text-decoration: none;
 
-.contact,
-.contact .contact__icon {
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+    &--header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 30px;
+        margin-right: 0;
+    }
 
-.contact__icon {
-    fill: #757575;
-}
+    &,
+    &__icon {
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
-.contact__icon--position {
-    margin-right: 10px;
-}
+    &__icon {
+        fill: #757575;
+    }
 
-.contact:hover,
-.contact:hover .contact__icon,
-.contact:focus,
-.contact:focus .contact__icon {
-    color: var(--link-hover);
-    fill: var(--link-hover);
+    &__icon--position {
+        margin-right: 10px;
+    }
+
+    &:hover,
+    &:hover &__icon,
+    &:focus,
+    &:focus &__icon {
+        color: var(--link-hover);
+        fill: var(--link-hover);
+    }
 }

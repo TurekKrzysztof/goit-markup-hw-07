@@ -10,16 +10,8 @@
 
     background-position: center;
     background-repeat: no-repeat;
-}
 
-.container--theme {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.theme__headline {
+&__headline {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -29,7 +21,8 @@
     color: #ffffff;
 }
 
-.theme__button {
+&__button {
     margin-top: 30px;
     animation: data-modal-open;
+}
 }

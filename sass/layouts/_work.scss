@@ -3,28 +3,31 @@
 .work {
     padding-top: 94px;
     padding-bottom: 94px;
-}
 
-.work__headline {
+&__headline {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-}
 
-.work__headline--start {
+&--start {
     padding-bottom: 50px;
     margin: 0;
 }
 
-.work__list {
+&::first-letter {
+    text-transform: uppercase;
+}
+}
+
+&__list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.work__figcaption {
+&__figcaption {
     position: absolute;
     width: 370px;
     height: 70px;
@@ -33,13 +36,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
 
-.work__figcaption--end {
+&--end {
     top: 1432px;
 }
+}
 
-.work__description {
+&__description {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -49,4 +52,5 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
 }

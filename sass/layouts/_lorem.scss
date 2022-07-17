@@ -3,16 +3,15 @@
 .lorem {
     letter-spacing: 0.03em;
     padding-top: 94px;
-}
 
-.lorem__list {
+&__list {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.lorem__link {
+&__link {
     display: flex;
     width: 270px;
     height: 120px;
@@ -23,31 +22,30 @@
     ;
 }
 
-.lorem__picture {
+&__picture {
     width: 70px;
     height: 70px;
 }
 
-.lorem__headline {
+&__headline {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
-}
 
-.lorem__headline--start {
+&--start {
     padding-top: 30px;
     padding-bottom: 10px;
 }
+}
 
-.lorem__text {
+&__text {
     font-size: 14px;
     line-height: 1.71;
     color: #757575;
-}
 
-.lorem__text::first-letter,
-.work__headline::first-letter,
-.team__headline::first-letter {
+&::first-letter {
     text-transform: uppercase;
+}
+}
 }
