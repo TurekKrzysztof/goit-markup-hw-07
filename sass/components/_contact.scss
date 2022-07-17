@@ -1,0 +1,33 @@
+/*CONTACT*/
+
+.contact {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.contact,
+.contact .contact__icon {
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact__icon {
+    fill: #757575;
+}
+
+.contact__icon--position {
+    margin-right: 10px;
+}
+
+.contact:hover,
+.contact:hover .contact__icon,
+.contact:focus,
+.contact:focus .contact__icon {
+    color: var(--link-hover);
+    fill: var(--link-hover);
+}

@@ -1,0 +1,53 @@
+/* LOREM SECTION */
+
+.lorem {
+    letter-spacing: 0.03em;
+    padding-top: 94px;
+}
+
+.lorem__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.lorem__link {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    ;
+}
+
+.lorem__picture {
+    width: 70px;
+    height: 70px;
+}
+
+.lorem__headline {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.lorem__headline--start {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.lorem__text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #757575;
+}
+
+.lorem__text::first-letter,
+.work__headline::first-letter,
+.team__headline::first-letter {
+    text-transform: uppercase;
+}

@@ -1,0 +1,52 @@
+/* WORK SECTION */
+
+.work {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.work__headline {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.work__headline--start {
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+.work__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.work__figcaption {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work__figcaption--end {
+    top: 1432px;
+}
+
+.work__description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
